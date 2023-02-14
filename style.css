@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+/* Cabecalho */
+header{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    display: flex;  
+    gap: 569px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav.img{
+    margin-left:360px ;
+}
+
+.nav.p{
+    color: white;
+    align-items: center;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav.p:hover{
+    color: #1ed760; 
+}
+
+.nav a{
+    text-decoration: none;
+}
+.wight-line{
+    background-color: white;
+    height: 15.5px;
+    width: 0.4px;
+    border-radius: 100px;
+}
+
+/* Pagina Principal PARTE 1 */
+.main-div1{
+    background-color: rgb(29, 117, 222);
+    width: 100%;
+    height: 369px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-div1-div2{
+    margin-left: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;  
+}
+
+.main.h1{
+    font-size: 40px;
+    color: #ffff;
+    font-family: 'Open Sans', sans-serif;
+}
+.main.h2{
+    font-size: 24px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main.btt1{
+    background-color: #191414;
+    color: white;
+    width: 183.67px;
+    height: 52px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main.btt1:hover{
+  transition: all 0.1s;
+  transform: scale(1.03);
+  background-color: black;
+}
+.main.btt2{
+    background-color: rgb(29, 117, 222);
+    color: white;
+    width: 155px;
+    height: 52px;
+    border-radius: 50px;
+    font-size: 17px; 
+    font-family: 'Open Sans', sans-serif;
+    border-color: white;
+   
+}
+
+.main.btt2:hover{
+    transition: all 0.1s;
+    transform: scale(1.05);
+    background-color: rgb(24, 95, 228);
+}
+
+.main.p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+}
+
+
+/* Pagina Principal PARTE 2 */
+
+.main-div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+}
+
+.main.div2.li1{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main.div2.divmain{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.main.h3{
+    color: black;
+    font-size:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+.main-div2.tr1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    width: 1900px;
+}
+
+.main.td{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    gap: 25px;
+}
+
+.main.tr.img{
+    width: 142px;
+    height: 142px;
+    display: inline-block;
+    background-position: center top;
+    margin-right: 20px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main.tr.img.im1{
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f43009302fbaf6259b4c117c704f");
+    
+}
+.main.tr.img.im2{
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f43098292b95d24a697c20df5137");
+ 
+} 
+
+.main.tr.img.im3{
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f4306998d3ffd58aad6da6afdf67");
+    margin-top: 19px;
+}
+.main.tr.img.im4{
+    background-image: url("https://content-tooling.spotifycdn.com/images/4a4fc24a-69b3-476b-b6d9-e7597cda526e_enhance_icon_(1).svg");
+    margin-top:15px ;
+}
+
+.main.div2.p1{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main.div2.p2{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main.div2.li1.p1{
+    margin-top: 25px;
+}
+.main.div2.li1.p2{
+    margin-top: 4px;
+}
+.main.div2.li2.p1{
+    margin-top: 37px;
+}
+.main.div2.li2.p2{
+    margin-top: 4px;
+}
+.main.div2.li3.p1{
+    margin-top: 25px;
+}
+.main.div2.li3.p2{
+    margin-top: 4px;
+}
+.main.div2.li4.p1{
+    margin-top: 40px;
+}
+.main.div2.li4.p2{
+    margin-top: 4px;
+}
+
+.sla.p{
+    font-size: 90px;
+    opacity: 0;
+}
+
+.sla2{
+    font-size: 80px;
+}
+
+.sla.p:hover .sla2{
+    opacity: 1;
+}
+
+/* Rodapé */
+
+footer{
+    background-color: black;
+    height: 554.4px;
+    width: 100%;
+
+}
+
+/* @media (max-width:;) */
+
+@media (max-width:1920px){
+    .nav.nav.img{
+        margin-left:200px ;
+    }
+
+    header{
+        display: flex;
+        gap: 900px;
+    }
+    .main-div1-div2{
+        margin-left: 200px;
+    }
+  
+}
+
+
+@media (max-width:1578px) {
+    .nav.img{
+        margin-left: 87px;
+    }
+    header{
+        display: flex;
+        gap: 597px;
+    }
+    .main-div1-div2{
+        margin-left: 129px;
+        
+    }
+   
+}
+
+@media (max-width:1300px){
+    .nav.p{
+        opacity: 0;
+    }
+    .wight-line{
+        opacity: 0;
+    }
+}
